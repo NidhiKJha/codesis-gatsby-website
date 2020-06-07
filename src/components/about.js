@@ -1,10 +1,12 @@
-import React from 'react'
+import React from "react"
+import "./intro.css"
 
 export default function About() {
-    return (
-      <div className= "section">
-        <h1>Hello Gatsby!</h1>
-        <p>What a world.</p>
-      </div>
-    );
-  }
+  return (
+    <div className="section">
+      <div className="header">Hello! Developer</div>
+      <h3>Welcome To Codesis</h3>
+      <p>What a world.</p>
+    </div>
+  )
+}

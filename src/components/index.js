@@ -4,7 +4,7 @@ import About from "./about"
 
 export default function Test() {
     return (
-      <div className= "section">
+      <div >
         <About/>
         <Project/>
       </div>

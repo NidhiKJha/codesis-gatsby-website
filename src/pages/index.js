@@ -1,5 +1,9 @@
 import React from "react"
+import Test from "../components/index"
+import "./style.css"
 
 export default function Home() {
-  return <div>Hello world!</div>
+  return <div className= "main">
+    <Test/>
+  </div>
 }
